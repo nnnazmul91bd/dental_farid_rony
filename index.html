@@ -1,0 +1,612 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title>Bootsrpa</title>
+		<!-- aos link -->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<!-- fontwasome -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+		<!-- bootstrap.css link -->
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	</head>
+	<body>
+		<!-- header start -->
+		<header>
+			<div class="container">
+				<div class="row">
+					<!-- dental logo -->
+					<div class="col-lg-3">
+						<a href="#"><img src="img/Pink .png" class="img-fluid"></a>
+					</div>
+					<!-- contact info -->
+					<div class="col-lg-9">
+						<div class="row">
+							<div class="col-lg">
+								<!-- call us section
+								-->
+								<ul class="nav">
+									<li><img src="img/phone.png"></li>
+									<li>
+										<h4>Call Us</h4>
+										<span>01776 502 993</span>
+									</li>
+								</ul>
+								
+							</div>
+							<!-- support help line section -->
+							<div class="col-lg">
+								<ul class="nav">
+									<li><img src="img/mail.png"></li>
+									<li>
+										<h4>Support Help Line</h4>
+										<span>raifazannat@gmail.com</span>
+									</li>
+								</ul>
+							</div>
+							<!-- get in tourch -->
+							<div class="col-lg">
+								<div class="col-lg">
+									<ul class="nav">
+										<li><img src="img/pin.png"></li>
+										<li>
+											<h4>Get in Touch Now</h4>
+											<span>127/1, Dakshinkhan, Dhaka</span>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<!-- header end -->
+	<!------------------------------ nav start --------------------------------->
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="container">
+			
+			<!-- <a class="navbar-brand" href="#">Navbar</a> -->
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item active">
+						<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Link</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+							Dropdown
+						</a>
+						<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="#">Action</a>
+							<a class="dropdown-item" href="#">Another action</a>
+							<div class="dropdown-divider"></div>
+							<a class="dropdown-item" href="#">Something else here</a>
+						</div>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+					</li>
+				</ul>
+				<!--  <form class="form-inline my-2 my-lg-0">
+						<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+						<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+				</form> -->
+				<div>
+					<button type="btn" class="btn btn-danger" data-toggle="modal" data-target="#Appoinment"><i class="far fa-calendar-alt"></i>Appoinment</button>
+				</div>
+			</div>
+		</div>
+	</nav>
+	<!---------------- nav end ------------------->
+	<!-- appoinmetnt modal  -->
+	<!-- Modal -->
+	<div class="modal fade" id="Appoinment" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				
+				<div class="modal-body shadow-sm ">
+					<!-- from statrt -->
+					<form action="signpu_submit" method="get" class="row py-5">
+						<h2 class="pb-5 m-auto text-center">Make an Appointment</h2>
+						<div class="col-xl-6 mb-3">
+							<label>First Name</label>
+							<input type="text" name="" class="form-control" placeholder="Enter Your First Name">
+						</div>
+						<div class="col-xl-6 mb-3">
+							<label>Surname</label>
+							<input type="text" name="" class="form-control" placeholder="Enter Your surname">
+						</div>
+						<div class="col-xl-12 mb-3">
+							<label>Email Address</label>
+							<input type="email" class="form-control" placeholder="Type your valid email address" name="">
+						</div>
+						<div class="col-xl-6 mb-3">
+							<label>Password</label>
+							<input type="password" name="" class="form-control" placeholder="Password">
+						</div>
+						<div class="col-xl-6 mb-3">
+							<label>Confirm Password</label>
+							<input type="password" name="" class="form-control" placeholder="Confirm Password">
+						</div>
+						<!-----radio box---->
+						<div class="col-xl-6 mb-3">
+							<span>Gender</span>
+							<div class="form-check">
+								<input type="radio" class="form-check-input" name="gender" checked id="male" value="male">
+								<label for="male">Male</label>
+							</div>
+							<div class="form-check">
+								<input type="radio" class="form-check-input" name="gender" id="female" value="female">
+								<label for="female">Female</label>
+							</div>
+							<div class="form-check">
+								<input type="radio" class="form-check-input" name="gender" id="other" value="other">
+								<label for="other">Other</label>
+							</div>
+						</div>
+						<!-----check box---->
+						<div class="col-xl-6 mb-3">
+							<span>Country</span>
+							<div class="form-check">
+								<input type="checkbox" class="form-check-input" name="country" checked id="bd" value="bn">
+								<label for="bd">Bangladesh</label>
+							</div>
+							<div class="form-check">
+								<input type="checkbox" class="form-check-input" name="country" id="pa" value="bn">
+								<label for="pa">Pakistan</label>
+							</div>
+							<div class="form-check">
+								<input type="checkbox" class="form-check-input" name="country" id="ja" value="bn">
+								<label for="ja">Japan</label>
+							</div>
+						</div>
+						<!-----option---->
+						<div class="col-xl-12 mb-3">
+							<label>Select Your Course</label>
+							<select class="form-control" name="course">
+								<option value="">Select....</option>
+								
+								<option value="course">Web Design & WordPress</option>
+								<option value="course">Graphics and UI Design</option>
+								<option value="course">Shopify Online Shop Design</option>
+								<option value="course">Digital Marketing</option>
+								<option value="course">JavaScript</option>
+								<option value="course">UI and UX Design</option>
+							</select>
+						</div>
+						<div class="col-xl-12 mb-3">
+							<label>Upload Your CV</label>
+							<input type="file" name="" class="form-control-file">
+						</div>
+						<div class="col-xl-12 mb-3">
+							<label>Message</label>
+							<textarea name="" class="form-control" rows="7"></textarea>
+						</div>
+						<div class="col-xl-4 mb-3">
+							<input type="submit" name="" class="btn btn-danger px-5">
+						</div>
+						<div class="col-xl-6 mb-3">
+							<p>Or<a href="login.html">Login</a></p>
+						</div>
+					</form>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<!--------------------------------appointment modal end-------------------------------------------->
+	<!-- carousel start -->
+	<section class="">
+		
+		<div data-aos="fade-up"
+			data-aos-duration="3000">
+			<div class="container">
+				<div class="row">
+					
+					<div class="col-6 py-5">
+						<h2>WE PROVIDE TOTAL</h2>
+						<h1>DENTAL CARE SOLUTION</h1>
+						<P>Continually cultivate scatle methodologices avira theme backend a extendt optional mrvice highly grouth strateges</P>
+						<div>
+							<ul class="nav">
+								<li><a href="#" class=" btn btn-danger">LEARN MORE</a></li>
+								<li><a href="#" class="mx-4 btn btn-danger">BOOK NOW</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-6">
+						<img src="img/doctor-1149149_960_720.jpg" class="img-fluid" alt="">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- carousel end -->
+	<!-- about start -->
+	<section class="about-section">
+		<div class="container-fluid py-5">
+			<div class="row">
+				<div class="col-lg-4">
+					<img src="img/gettyimages_1870728381.jpg" class="img-fluid" alt="">
+				</div>
+				<div class="col-lg-6">
+					<div class="headding">
+						<h1>Welcome to Dental Plus Agency</h1>
+						<p>Corem ipsum dolor what a amet, consecteture adipiscing elit diam  an nonummy laoreet dolore magna aliquam erat volutpat</p>
+					</div>
+					<div class="row">
+						<!-- about innner -->
+						<div class="col-lg-6">
+							<div class="about">
+								<img src="img/tooth.png" class="img-fluid" alt="">
+								<h2>Tooth Extraction</h2>
+								<p>Holisticly unleash stand outsourcing fortional thinking deliver ubiquitous technologies for ually envisioneer just in time</p>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="about">
+								<img src="img/tooth.png" class="img-fluid" alt="">
+								<h2>Tooth Extraction</h2>
+								<p>Holisticly unleash stand outsourcing fortional thinking deliver ubiquitous technologies for ually envisioneer just in time</p>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="about">
+								<img src="img/tooth.png" class="img-fluid" alt="">
+								<h2>Tooth Extraction</h2>
+								<p>Holisticly unleash stand outsourcing fortional thinking deliver ubiquitous technologies for ually envisioneer just in time</p>
+							</div>
+						</div>
+						<div class="col-lg-6">
+							<div class="about">
+								<img src="img/tooth.png" class="img-fluid" alt="">
+								<h2>Tooth Extraction</h2>
+								<p>Holisticly unleash stand outsourcing fortional thinking deliver ubiquitous technologies for ually envisioneer just in time</p>
+							</div>
+						</div>
+						<!-- about innner -->
+						
+					</div>
+					
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-------------------------- about end ------------------------------>
+	
+	<!-- our doctors section start -->
+	<section class="our-doctors-section">
+		<div class="container pb-5">
+			<!-- doctor headein part -->
+			<div class="headding text-center">
+				<h1>Meet Ours doctors</h1>
+				<img src="img/dna.png" alt="">
+				<img src="img/dna.png" alt="">
+				<img src="img/dna.png" alt="">
+				<p>Corem ipsum dolor what a amet, consecteture adipiscing elit diam  an nonummy laoreet dolore magna aliquam erat volutpat</p>
+			</div>
+			<!-- doctor headein part -->
+			<div class="row">
+				
+				<!-- doctor inner part -->
+				<div class="col-lg-4">
+					<div class="doctor">
+						<div class="doctor-img">
+							<img src="img/5d77f4584cba6.jpeg" class="w-100">
+							<ul class="nav">
+								<li><i class="fab fa-facebook-f"></i></li>
+								<li><i class="fab fa-twitter"></i></li>
+								<li><i class="fab fa-google"></i></li>
+							</ul>
+						</div>
+						<div class="doctor-info">
+							<h2>Jonathon Doe</h2>
+							<p>Dentist</p>
+						</div>
+					</div>
+				</div>
+				<!-- doctor inner part -->
+				<!-- doctor inner part -->
+				<div class="col-lg-4">
+					<div class="doctor">
+						<div class="doctor-img">
+							<img src="img/Doctor-400.jpg" class="w-100">
+							<ul class="nav">
+								<li><i class="fab fa-facebook-f"></i></li>
+								<li><i class="fab fa-twitter"></i></li>
+								<li><i class="fab fa-google"></i></li>
+							</ul>
+						</div>
+						<div class="doctor-info">
+							<h2>Jonathon Doe</h2>
+							<p>Dentist</p>
+						</div>
+					</div>
+				</div>
+				<!-- doctor inner part -->
+				<!-- doctor inner part -->
+				<div class="col-lg-4">
+					<div class="doctor">
+						<div class="doctor-img">
+							<img src="img/5d77f4584cba6.jpeg" class="w-100">
+							<ul class="nav">
+								<li><i class="fab fa-facebook-f"></i></li>
+								<li><i class="fab fa-twitter"></i></li>
+								<li><i class="fab fa-google"></i></li>
+							</ul>
+						</div>
+						<div class="doctor-info">
+							<h2>Jonathon Doe</h2>
+							<p>Dentist</p>
+						</div>
+					</div>
+				</div>
+				<!-- doctor inner part -->
+				<!-- doctor inner part -->
+				<div class="col-lg-4">
+					<div class="doctor">
+						<div class="doctor-img">
+							<img src="img/Doctor-400.jpg" class="w-100">
+							<ul class="nav">
+								<li><i class="fab fa-facebook-f"></i></li>
+								<li><i class="fab fa-twitter"></i></li>
+								<li><i class="fab fa-google"></i></li>
+							</ul>
+						</div>
+						<div class="doctor-info">
+							<h2>Jonathon Doe</h2>
+							<p>Dentist</p>
+						</div>
+					</div>
+				</div>
+				<!-- doctor inner part -->
+				<!-- doctor inner part -->
+				<div class="col-lg-4">
+					<div class="doctor">
+						<div class="doctor-img">
+							<img src="img/5d77f4584cba6.jpeg" class="w-100">
+							<ul class="nav">
+								<li><i class="fab fa-facebook-f"></i></li>
+								<li><i class="fab fa-twitter"></i></li>
+								<li><i class="fab fa-google"></i></li>
+							</ul>
+						</div>
+						<div class="doctor-info">
+							<h2>Jonathon Doe</h2>
+							<p>Dentist</p>
+						</div>
+					</div>
+				</div>
+				<!-- doctor inner part -->
+				<!-- doctor inner part -->
+				<div class="col-lg-4">
+					<div class="doctor">
+						<div class="doctor-img">
+							<img src="img/Doctor-400.jpg" class="w-100">
+							<ul class="nav">
+								<li><i class="fab fa-facebook-f"></i></li>
+								<li><i class="fab fa-twitter"></i></li>
+								<li><i class="fab fa-google"></i></li>
+							</ul>
+						</div>
+						<div class="doctor-info">
+							<h2>Jonathon Doe</h2>
+							<p>Dentist</p>
+						</div>
+					</div>
+				</div>
+				<!-- doctor inner part -->
+			</div>
+		</div>
+	</section>
+	<!-- our doctors section end -->
+	<!------------------------- services start ----------------------------->
+	<section class="our-service-section">
+		<div class="container">
+			<div class="headding text-center">
+				<h1>Our Services</h1>
+				<img src="img/dna.png" alt="">
+				<img src="img/dna.png" alt="">
+				<img src="img/dna.png" alt="">
+				<p>Corem ipsum dolor what a amet, consecteture adipiscing elit diam  an nonummy laoreet dolore magna aliquam erat volutpat</p>
+			</div>
+			<div class="row">
+				<!-- services -->
+				<div class="col-lg-4">
+					<div class="service">
+						<div>
+							<ul class="nav">
+								<li><img src="img/tooth.png" class="teeth" alt=""></li>
+								<li><h2>Tooth Extraction</h2></li>
+							</ul>
+							<p>Exceptionologies Dratically a undewhelm infrastructures and rather than ling dige awesome theme markets.</p>
+							<a href="#">Read more<i class="fas fa-arrow-circle-right"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- services -->
+				<!-- services -->
+				<div class="col-lg-4">
+					<div class="service">
+						<div>
+							<ul class="nav">
+								<li><img src="img/tooth.png" class="teeth" alt=""></li>
+								<li><h2>Tooth Extraction</h2></li>
+							</ul>
+							<p>Exceptionologies Dratically a undewhelm infrastructures and rather than ling dige awesome theme markets.</p>
+							<a href="#">Read more<i class="fas fa-arrow-circle-right"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- services -->
+				<!-- services -->
+				<div class="col-lg-4">
+					<div class="service">
+						<div>
+							<ul class="nav">
+								<li><img src="img/tooth.png" class="teeth" alt=""></li>
+								<li><h2>Tooth Extraction</h2></li>
+							</ul>
+							<p>Exceptionologies Dratically a undewhelm infrastructures and rather than ling dige awesome theme markets.</p>
+							<a href="#">Read more<i class="fas fa-arrow-circle-right"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- services -->
+				<!-- services -->
+				<div class="col-lg-4">
+					<div class="service">
+						<div>
+							<ul class="nav">
+								<li><img src="img/tooth.png" class="teeth" alt=""></li>
+								<li><h2>Tooth Extraction</h2></li>
+							</ul>
+							<p>Exceptionologies Dratically a undewhelm infrastructures and rather than ling dige awesome theme markets.</p>
+							<a href="#">Read more<i class="fas fa-arrow-circle-right"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- services -->
+				<!-- services -->
+				<div class="col-lg-4">
+					<div class="service">
+						<div>
+							<ul class="nav">
+								<li><img src="img/tooth.png" class="teeth" alt=""></li>
+								<li><h2>Tooth Extraction</h2></li>
+							</ul>
+							<p>Exceptionologies Dratically a undewhelm infrastructures and rather than ling dige awesome theme markets.</p>
+							<a href="#">Read more<i class="fas fa-arrow-circle-right"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- services -->
+				<!-- services -->
+				<div class="col-lg-4">
+					<div class="service">
+						<div>
+							<ul class="nav">
+								<li><img src="img/tooth.png" class="teeth" alt=""></li>
+								<li><h2>Tooth Extraction</h2></li>
+							</ul>
+							<p>Exceptionologies Dratically a undewhelm infrastructures and rather than ling dige awesome theme markets.</p>
+							<a href="#">Read more<i class="fas fa-arrow-circle-right"></i></a>
+						</div>
+					</div>
+				</div>
+				<!-- services -->
+			</div>
+		</div>
+	</section>
+	<!------------------------- services end -------------------------------->
+	<!---------------------------- pricing plane star ---------------->
+	<section class="pricing-plan-section">
+		<div class="container py-5">
+			<div class="headding text-center">
+				<h1>Ours Pricing Plan</h1>
+				<img src="img/dna.png" alt="">
+				<img src="img/dna.png" alt="">
+				<img src="img/dna.png" alt="">
+				<p>Corem ipsum dolor what a amet, consecteture adipiscing elit diam  an nonummy laoreet dolore magna aliquam erat volutpat</p>
+			</div>
+			<div class="row">
+				<!-- pricing box con -->
+				<div class="col-lg">
+					<div class="pricing-box">
+						<ul class="list-unstyled">
+							<li>
+								<h2>Business Plan</h2>
+								<span>For Super Professional</span>
+							</li>
+							<li>
+								<h1>$19.99</h1>
+								<span>Per month</span>
+							</li>
+							<li><p>Unlimited Pizza</p></li>
+							<li><p>Daft punk Every Evenings</p></li>
+							<li><p>Full Cccess Pizza</p></li>
+							<li><p>2 Free Farks Every Months</p></li>
+							<li><p>Unlimited Burger</p></li>
+							<li>
+								<a href="#" class="btn btn-danger">Sign Up</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- pricing box con -->
+				<!-- pricing box con -->
+				<div class="col-lg">
+					<div class="pricing-box">
+						<ul class="list-unstyled">
+							<li>
+								<h2>Business Plan</h2>
+								<span>For Super Professional</span>
+							</li>
+							<li>
+								<h1>$19.99</h1>
+								<span>Per month</span>
+							</li>
+							<li><p>Unlimited Pizza</p></li>
+							<li><p>Daft punk Every Evenings</p></li>
+							<li><p>Full Cccess Pizza</p></li>
+							<li><p>2 Free Farks Every Months</p></li>
+							<li><p>Unlimited Burger</p></li>
+							<li>
+								<a href="#" class="btn btn-danger">Sign Up</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- pricing box con -->
+				<!-- pricing box con -->
+				<div class="col-lg">
+					<div class="pricing-box">
+						<ul class="list-unstyled">
+							<li>
+								<h2>Business Plan</h2>
+								<span>For Super Professional</span>
+							</li>
+							<li>
+								<h1>$19.99</h1>
+								<span>Per month</span>
+							</li>
+							<li><p>Unlimited Pizza</p></li>
+							<li><p>Daft punk Every Evenings</p></li>
+							<li><p>Full Cccess Pizza</p></li>
+							<li><p>2 Free Farks Every Months</p></li>
+							<li><p>Unlimited Burger</p></li>
+							<li>
+								<a href="#" class="btn btn-danger">Sign Up</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- pricing box con -->
+			</div>
+		</div>
+	</section>
+	<!---------------------------- pricing plane end ---------------->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="js/jquery-3.5.1.slim.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<!-- aos js -->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
+</body>
+</html>
